@@ -20,6 +20,23 @@
             <artifactId>javadbf</artifactId>
             <version>1.9.2</version>
         </dependency>
+
+        <!-- Vamos a trabajar con Base de Datos
+        asi que se necesitan drivers, las siguientes 2 dependencias son drivers de mysql
+        y postgres -->
+
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.13</version>
+        </dependency>
+        <dependency>
+            <groupId>postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>9.1-901.jdbc4</version>
+        </dependency>
+
+
     </dependencies>
 
     <build>
